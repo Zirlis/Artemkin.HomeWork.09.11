@@ -1,15 +1,15 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Artemkin.HomeWork._09._11
+class Program
 {
-    class Program
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-        }
+        //Test Task1
+        Task1.ComplexExample();
+        Console.ReadKey();
+
+        //Test Task2
+        Task2.Start(); 
     }
 }
+
